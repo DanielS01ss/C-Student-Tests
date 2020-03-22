@@ -98,6 +98,17 @@ namespace _10LaBac
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            string commandText = "UPDATE tblUser SET logged_in = 'false' WHERE logged_in = 'true'";
+            ///aici declaram conexiunea si o folosim
+            using (SqlConnection sqlcon = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(commandText, sqlcon))
+            {
+                sqlcon.Open();
+                cmd.ExecuteNonQuery();
+                sqlcon.Close();
+            }
+
+
             Application.Exit();
         }
 

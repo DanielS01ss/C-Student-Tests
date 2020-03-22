@@ -66,7 +66,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(232, 124);
+            this.label3.Location = new System.Drawing.Point(231, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(322, 16);
             this.label3.TabIndex = 3;
@@ -76,12 +76,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(232, 157);
+            this.label4.Location = new System.Drawing.Point(231, 181);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(588, 16);
+            this.label4.Size = new System.Drawing.Size(414, 16);
             this.label4.TabIndex = 4;
-            this.label4.Text = "2) Pentru a te antrena sa lucrezi contratimp vei avea la dispozitie  40 min sa te" +
-    "rmini testul";
+            this.label4.Text = "2) Testele sunt contratimp , timpul fiind in functie de dificultate";
             // 
             // label5
             // 
@@ -95,7 +94,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(232, 190);
+            this.label6.Location = new System.Drawing.Point(231, 215);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(453, 16);
             this.label6.TabIndex = 6;
@@ -105,7 +104,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(232, 231);
+            this.label7.Location = new System.Drawing.Point(232, 253);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(495, 16);
             this.label7.TabIndex = 7;
@@ -134,7 +133,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::_10LaBac.Properties.Resources.pencil2;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 57);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(171, 243);
             this.pictureBox1.TabIndex = 0;
