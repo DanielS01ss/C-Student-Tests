@@ -71,17 +71,17 @@
     <Compile Include="Informatica.Designer.cs">
       <DependentUpon>Informatica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Romana.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Romana.Designer.cs">
-      <DependentUpon>Romana.cs</DependentUpon>
-    </Compile>
     <Compile Include="Matematica.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Matematica.Designer.cs">
       <DependentUpon>Matematica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Romana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Romana.Designer.cs">
+      <DependentUpon>Romana.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,11 +109,11 @@
     <EmbeddedResource Include="Informatica.resx">
       <DependentUpon>Informatica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Romana.resx">
-      <DependentUpon>Romana.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Matematica.resx">
       <DependentUpon>Matematica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Romana.resx">
+      <DependentUpon>Romana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -359,6 +359,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

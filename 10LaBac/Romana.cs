@@ -146,7 +146,7 @@ namespace _10LaBac
                     }
                     else
                     {
-                        label10.Text = "Mai exerseaza si revino mai tarziu. Hai stiu ca poti!!";
+                        label10.Text = "Mai exerseaza si revino ;)";
                     }
 
                     ///+ salvare in baza de date!!!!
@@ -172,7 +172,7 @@ namespace _10LaBac
                         ///daca nu lasam asa 
                         ///oricum de stocat stocam nota ca ultima nota
 
-                        comm = "INSERT INTO UserRegistrationDB.dbo.tblUser(ultima_rom,medie_rom)VALUES(@rom,@medie)";
+                        comm = "UPDATE UserRegistrationDB.dbo.tblUser SET medie_rom = @medie, ultima_rom = @rom  WHERE logged_in='true';";
 
                         using (SqlConnection sqlCon = new SqlConnection(connString))
                         {
@@ -189,7 +189,7 @@ namespace _10LaBac
                     else
                     {
                         ///daca nu o introducem doar ca ultima nota
-                        comm = "INSERT INTO UserRegistrationDB.dbo.tblUser(ultima_rom)VALUES(@rom)";
+                        comm = "UPDATE UserRegistrationDB.dbo.tblUser SET ultima_rom = @rom  WHERE logged_in='true';";
 
                         using (SqlConnection sqlCon = new SqlConnection(connString))
                         {

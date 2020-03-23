@@ -189,7 +189,7 @@
             this.panel2.Location = new System.Drawing.Point(233, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(858, 153);
+            this.panel2.Size = new System.Drawing.Size(1038, 153);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
@@ -221,7 +221,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::_10LaBac.Properties.Resources.Webp6;
-            this.pictureBox1.Location = new System.Drawing.Point(697, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(841, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(113, 112);
             this.pictureBox1.TabIndex = 1;
@@ -291,14 +291,15 @@
             // 
             this.instructiuni1.Location = new System.Drawing.Point(236, 156);
             this.instructiuni1.Name = "instructiuni1";
-            this.instructiuni1.Size = new System.Drawing.Size(855, 441);
+            this.instructiuni1.Size = new System.Drawing.Size(945, 432);
             this.instructiuni1.TabIndex = 9;
+            this.instructiuni1.Load += new System.EventHandler(this.instructiuni1_Load);
             // 
             // status1
             // 
             this.status1.Location = new System.Drawing.Point(236, 156);
             this.status1.Name = "status1";
-            this.status1.Size = new System.Drawing.Size(797, 441);
+            this.status1.Size = new System.Drawing.Size(998, 441);
             this.status1.TabIndex = 8;
             this.status1.Load += new System.EventHandler(this.status1_Load);
             // 
@@ -306,7 +307,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1074, 616);
+            this.ClientSize = new System.Drawing.Size(1190, 616);
             this.Controls.Add(this.instructiuni1);
             this.Controls.Add(this.status1);
             this.Controls.Add(this.pictureBox8);

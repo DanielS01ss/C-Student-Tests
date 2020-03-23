@@ -59,16 +59,16 @@ namespace _10LaBac
             Application.Exit();
            
         }
-
+   
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             score = 0;
             label8.Text = "";
             textBox4.PasswordChar = '*';
             String password = textBox4.Text;
-            int minLength = 8;
+            int minLength = 10;
 
-            string specialChars = "#?!,-'/`_*$";
+            string specialChars = "#?!,-'/`_*$@%^&";
            
             if (password.Length >= minLength)
             {
@@ -86,6 +86,10 @@ namespace _10LaBac
             {
                 score++;
             }
+            
+            
+
+
             bool caractereSpeciale = false;
             ///aici verificam daca functia contine caractere speciale
             foreach (char c in password)
@@ -103,10 +107,11 @@ namespace _10LaBac
             switch (score)
             {
                 case 5:
-                case 4:
+             
                     label8.Text = "Extremly strong password";
                     label8.ForeColor = System.Drawing.Color.Lime;
                     break;
+                case 4:
                 case 3:
                     label8.Text = "This is a strong password";
                     label8.ForeColor = System.Drawing.Color.Green;
@@ -122,11 +127,8 @@ namespace _10LaBac
                     label8.ForeColor = System.Drawing.Color.Yellow;
                     
                     break;
-                default:
-                    label8.Text = "Password doesn't meet the standards";
-                    label8.ForeColor = System.Drawing.Color.Red;
-               
-                    break;
+            
+                    
             }
 
         }
@@ -226,6 +228,10 @@ namespace _10LaBac
                 {
 
                     signUp = true;
+                }
+                else
+                {
+                    MessageBox.Show("Datele introduse nu sunt valide!!!", "Eroare logare", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }

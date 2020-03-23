@@ -93,7 +93,7 @@ namespace _10LaBac
                 ///daca mai exista raspunsuri updatam
                 ///daca nu afisam rezultatele finale
                 
-                if(p == 18)
+                if(p == 9)
                 {
                     this.timer1.Enabled = false;
 
@@ -127,7 +127,7 @@ namespace _10LaBac
 
 
                     ///si acuma calculam nota
-                    nota = (corecte /2)+1;
+                    nota = corecte+1;
                     label6.Text = nota.ToString();
 
                     nota = Convert.ToDouble(nota);
@@ -146,7 +146,7 @@ namespace _10LaBac
                     }
                     else
                     {
-                        label10.Text = "Mai exerseaza si revino mai tarziu. Hai stiu ca poti!!";
+                        label10.Text = "Mai exerseaza si revino ;)";
                     }
 
                     ///+ salvare in baza de date!!!!
@@ -172,7 +172,7 @@ namespace _10LaBac
                         ///daca nu lasam asa 
                         ///oricum de stocat stocam nota ca ultima nota
 
-                        comm = "INSERT INTO UserRegistrationDB.dbo.tblUser(ultima_info,medie_info)VALUES(@info,@medie)";
+                        comm = "UPDATE UserRegistrationDB.dbo.tblUser SET medie_info = @medie, ultima_info =@info  WHERE logged_in='true';";
 
                         using (SqlConnection sqlCon = new SqlConnection(connString))
                         {
@@ -189,7 +189,7 @@ namespace _10LaBac
                     else
                     {
                         ///daca nu o introducem doar ca ultima nota
-                        comm = "INSERT INTO UserRegistrationDB.dbo.tblUser(ultima_info)VALUES(@info)";
+                        comm = "UPDATE UserRegistrationDB.dbo.tblUser SET ultima_info = @info WHERE logged_in = 'true';";
 
                         using (SqlConnection sqlCon = new SqlConnection(connString))
                         {
@@ -206,7 +206,7 @@ namespace _10LaBac
 
                         p++;
                 }
-                else if(p==19)
+                else if(p==10)
                 {
                     this.Hide();
                     mn.Show();
@@ -247,7 +247,7 @@ namespace _10LaBac
 
         void start()
         {
-            totalMinutes = 5;
+            totalMinutes = 35;
             totalSeconds = (totalMinutes * 60);
             this.timer1.Enabled = true;
 
@@ -300,15 +300,19 @@ namespace _10LaBac
             ///vom genera in MyNumber valoare de care avem nevoie
             /// dar chestia asta o facem intr-un for deoarece avem nevoie de mai multe
             ///valori
-            for(int i=0;i<18;i++)
+
+            
+            for(int i=0;i<10;i++)
             {
-                MyNumber = a.Next(0, 30);
+                MyNumber = a.Next(0, 19);
                 while(val.Contains(MyNumber))
                 {
-                    MyNumber = a.Next(0,30);
+                    MyNumber = a.Next(0,19);
                 }
                 val[k++] = MyNumber;
             }
+            
+            
             ///la terminarea while-ului avem toate valorile necesare
 
         }

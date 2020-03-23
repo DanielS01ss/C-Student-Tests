@@ -9,8 +9,8 @@ C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\10LaBac.pdb
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Sign_IN.resources
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Main.resources
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Status.resources
-C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\10LaBac.csprojAssemblyReference.cache
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Instructiuni.resources
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Matematica.resources
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Informatica.resources
 C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\_10LaBac.Romana.resources
+C:\Users\stanc\Desktop\atestat\10LaBac\obj\Debug\10LaBac.csprojAssemblyReference.cache

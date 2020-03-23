@@ -136,6 +136,9 @@
   <data name="Webp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Webp.net-resizeimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hiclipart.com (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hiclipart.com (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Webp.net-resizeimage (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Webp.net-resizeimage (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -280,6 +283,12 @@
   <data name="metrostation-teal-power-on-off-button-png-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\metrostation-teal-power-on-off-button-png-clipart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logout21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Webp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Webp.net-resizeimage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -328,10 +337,7 @@
   <data name="kisspng-brand-circle-logo-user-friendly-5b113ff529c100.601456151527857141171" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-brand-circle-logo-user-friendly-5b113ff529c100.601456151527857141171.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hiclipart.com (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hiclipart.com (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logout21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="happy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\happy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

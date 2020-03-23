@@ -267,5 +267,10 @@ namespace _10LaBac
             this.Hide();
             info.ShowDialog();
         }
+
+        private void instructiuni1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

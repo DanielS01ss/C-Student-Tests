@@ -68,9 +68,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 18);
+            this.label2.Size = new System.Drawing.Size(107, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Media ultimelor note";
+            this.label2.Text = "Nota maxima";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -100,9 +100,9 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 277);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 18);
+            this.label4.Size = new System.Drawing.Size(107, 18);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Media ultimelor note";
+            this.label4.Text = "Nota maxima";
             // 
             // label5
             // 
@@ -131,9 +131,9 @@
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(393, 58);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(168, 19);
+            this.label7.Size = new System.Drawing.Size(115, 19);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Media ultimelor note";
+            this.label7.Text = "Nota Maxima";
             // 
             // Informatica
             // 
@@ -185,7 +185,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(55, 304);
+            this.label12.Location = new System.Drawing.Point(39, 304);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(41, 13);
             this.label12.TabIndex = 16;
@@ -199,6 +199,7 @@
             this.label13.Size = new System.Drawing.Size(41, 13);
             this.label13.TabIndex = 17;
             this.label13.Text = "label13";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // pictureBox3
             // 
